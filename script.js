@@ -1,9 +1,6 @@
-
-
 const contador = document.querySelector(".contador");
 
-
-const dataFinal = new Date('2024-05-30T23:59:59');
+const dataFinal = new Date('2324-06-30T23:59:59');
 
 function atualizaContador() {
     const hoje = new Date();
@@ -24,3 +21,4 @@ function atualizaContador() {
 setInterval(atualizaContador, 1000);
 
 atualizaContador();
+

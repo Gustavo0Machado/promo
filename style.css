@@ -24,3 +24,137 @@ p {
     margin-top: 20px;
 }
 
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    height: 100vh;
+
+}
+.content-edge {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.content-body {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid hotpink; */
+}
+.lightsaber {
+    height: 100%;
+    width: 180px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.white {
+    background-image: linear-gradient(to right,
+                    transparent,
+                    whitesmoke 25%,
+                    white 50%,
+                    whitesmoke 75%,
+                    transparent)
+}
+
+.lightblue {
+    background-image: linear-gradient(to right,
+                    transparent,
+                    aqua 25%,
+                    white 50%,
+                    aqua 75%,
+                    transparent)
+}
+
+.green {
+    background-image: linear-gradient(to right,
+                    transparent,
+                    lawngreen 25%,
+                    white 50%,
+                    lawngreen 75%,
+                    transparent)
+}
+.blue {
+    background-image: linear-gradient(to right,
+                    transparent,
+                    blue 25%,
+                    white 50%,
+                    blue 75%,
+                    transparent)
+}
+.purple {
+    background-image: linear-gradient(to right,
+                    transparent,
+                    darkviolet 25%,
+                    white 50%,
+                    darkviolet 75%,
+                    transparent)
+}
+.yellow {
+    background-image: linear-gradient(to right,
+                    transparent,
+                    gold 25%,
+                    white 50%,
+                    gold 75%,
+                    transparent)
+}
+.orange {
+    background-image: linear-gradient(to right,
+                    transparent,
+                    darkorange 25%,
+                    white 50%,
+                    darkorange 75%,
+                    transparent)
+}
+.red {
+    background-image: linear-gradient(to right,
+                    transparent,
+                    red 25%,
+                    white 50%,
+                    red 75%,
+                    transparent)
+}
+.blacklight {
+    background-image: linear-gradient(to right,
+                    transparent,
+                    whitesmoke 30%,
+                    black 50%,
+                    whitesmoke 70%,
+                    transparent)
+}
+.lightsaber-edge {
+    height: 100%;
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+.edge-white {
+    background-image: radial-gradient(circle at bottom center, #ffffff 1%, whitesmoke 34%, transparent 69%);
+}
+.edge-lightblue {
+    background-image: radial-gradient(circle at bottom center, white 1%, aqua 34%, transparent 69%);
+}
+.edge-green {
+    background-image: radial-gradient(circle at bottom center, white 1%, lawngreen 34%, transparent 69%);
+}
+.edge-blue {
+    background-image: radial-gradient(circle at bottom center, white 1%, blue 34%, transparent 69%);
+}
+.edge-purple {
+    background-image: radial-gradient(circle at bottom center, white 1%, darkviolet 34%, transparent 69%);
+}
+.edge-yellow {
+    background-image: radial-gradient(circle at bottom center, white 1%, gold 34%, transparent 69%);
+}
+.edge-orange {
+    background-image: radial-gradient(circle at bottom center, white 1%, darkorange 34%, transparent 69%);
+}
+.edge-red {
+    background-image: radial-gradient(circle at bottom center, white 1%, red 34%, transparent 69%);
+}
+.edge-blacklight {
+    background-image: radial-gradient(circle at bottom center, black 1%, whitesmoke 27%, transparent 69%);
+}
